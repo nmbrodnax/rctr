@@ -1,0 +1,15 @@
+Package: rctr
+Type: Package
+Title: Randomized Controlled Trial Visualization in R
+Version: 0.0.0.9000
+Author: NaLette Brodnax
+Maintainer: NaLette Brodnax <nmbrodnax@gmail.com>
+Description: Tools for data from randomized controlled trials
+License: GPL >= 3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2
+    stargazer
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1

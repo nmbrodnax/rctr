@@ -1,0 +1,32 @@
+---
+output: md_document 
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include=FALSE}
+knitr::opts_knit$set(
+        error = FALSE
+)
+knitr::opts_chunk$set(
+        fig.path="man/figures/"
+)
+```
+
+# RCTR
+
+NaLette Brodnax
+
+## Motivation 
+
+This is a test.
+
+## Examples
+
+The `beta_plot` function allows you to simulate data from a 
+beta distribution and plot the results.
+
+```{r}
+library(rctr)
+beta_plot(a = 1, b = 3)
+```
